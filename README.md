@@ -1,7 +1,16 @@
 # ember-quickstart
 
-I am doing my best to get up to speed with Ember.  This will start as the "Ember Walkthrough" app from [the Ember Docs](https://guides.emberjs.com/v3.3.0/tutorial/ember-cli/) and will continue to grow as I learn.
+I am doing my best to get up to speed with Ember.  This will start as the "Ember Walkthrough" app from [the Ember Docs](https://guides.emberjs.com/v3.3.0/tutorial/ember-cli/) and will continue to grow as I learn.  Because this is a practice app, it will contain comments in the code (and in this README) that are being used to help me learn. 
 
+## App Goals from the Ember Tutorial Docs 
+
+* Show rentals on the home page
+* Link to information about the company
+* Link to contact information
+* List the available rentals
+* Filter the list of rentals by city
+* Show more details for a selected rental
+  
 ## Prerequisites
 
 You will need the following things properly installed on your computer.

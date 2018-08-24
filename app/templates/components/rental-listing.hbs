@@ -1,0 +1,24 @@
+<article class="listing">
+  <!-- <a class='image {{if isWide "wide"}}'>  This was the ORIGINAL version, but then we re-wrote it to be responsive.  As currently written, it takes the value of the prop "isWide" and, if it's true, adds a string to the className-->
+  
+  <a {{action 'toggleImageSize'}} class='image {{if isWide 'wide'}}'>
+    <!-- toggleImageSize is a variable  -->
+    <!-- clicking the a tag will send the ACTION to the component.  Ember then goes into the ACTION HASH to call the toggleImageSize func -->
+    <img src="{{rental.image}}" alt="">
+      <small>View Larger</small>
+  </a>
+  
+  <h3>{{rental.title}}</h3>
+  <div class="detail owner">
+    <span>Owner:</span> {{rental.owner}}
+  </div>
+  <div class="detail type">
+    <span>Type:</span> {{rental.category}}
+  </div>
+  <div class="detail location">
+    <span>Location:</span> {{rental.city}}
+  </div>
+  <div class="detail bedrooms">
+    <span>Number of bedrooms:</span> {{rental.bedrooms}}
+  </div>
+</article>
