@@ -1,7 +1,6 @@
 # ember-quickstart
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+I am doing my best to get up to speed with Ember.  This will start as the "Ember Walkthrough" app from [the Ember Docs](https://guides.emberjs.com/v3.3.0/tutorial/ember-cli/) and will continue to grow as I learn.
 
 ## Prerequisites
 
@@ -45,7 +44,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Specify what it takes to deploy your app. <-- This is left in to remind myself that it needs to change.
 
 ## Further Reading / Useful Links
 
